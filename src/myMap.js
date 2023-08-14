@@ -1,3 +1,5 @@
+// Create your own custom map method.
+
 Array.prototype.myMap = function (callback) {
   const mappedArray = [];
   for (let i = 0; i < this.length; i++) {

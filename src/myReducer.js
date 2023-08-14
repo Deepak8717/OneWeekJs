@@ -1,3 +1,5 @@
+// Create your own Reduce method
+
 Array.prototype.myReduce = function (callback, initialValue) {
   let accumulator = initialValue === undefined ? 0 : initialValue;
 

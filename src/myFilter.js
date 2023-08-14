@@ -1,3 +1,5 @@
+// Create your own custom filter method.
+
 Array.prototype.customFilter = function (predicate) {
   const filteredArray = [];
   for (let i = 0; i < this.length; i++) {
