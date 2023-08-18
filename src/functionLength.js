@@ -1,6 +1,6 @@
-const functionLength = (func) => {
-  return func.length;
-};
+function functionLength() {
+  return arguments.length;
+}
 
 function foo() {}
 function bar(a) {}
