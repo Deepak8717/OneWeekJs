@@ -25,10 +25,3 @@ var lowerBound = 10;
 var upperBound = 20;
 var clampedValue = clamp(value, lowerBound, upperBound);
 console.log(clampedValue); // Output will be 10, since it's clamped to the lower bound.
-
-// Example usage
-var value = 25;
-var lowerBound = 10;
-var upperBound = 20;
-var clampedValue = clamp(value, lowerBound, upperBound);
-console.log(clampedValue); // Output will be 15, since it's within the bounds of 10 and 20.
