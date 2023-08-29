@@ -1,11 +1,6 @@
 // Implement a function clamp(number, lower, upper) to restrict a number within the inclusive lower and upper bounds.
 
 function clamp(number, lower, upper) {
-  const number1 = Math.min(number, upper);
-  const number2 = Math.max(lower, max);
-  return number2;
-}
-function clamp(number, lower, upper) {
   return Math.max(lower, Math.min(number, upper));
 }
 
